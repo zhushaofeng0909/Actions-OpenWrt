@@ -12,10 +12,3 @@
 
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
-
-# Add a feed source
-sed -i '$a src-git jerrykuku https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
-sed -i '$a src-git jerrykuku https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
-sed -i '$a src-git jerrykuku https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
